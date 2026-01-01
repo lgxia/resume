@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人简历</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- 左侧个人信息区域 -->
+        <aside class="sidebar">
+            <div class="profile">
+                <div class="profile-pic"></div>
+                <h1 class="name">张三</h1>
+                <p class="title">前端开发工程师</p>
+            </div>
+            
+            <div class="contact">
+                <h2 class="section-title">
+                    <i class="fas fa-address-book"></i> 联系方式
+                </h2>
+                <ul class="contact-list">
+                    <li><i class="fas fa-phone"></i> 138-0000-0000</li>
+                    <li><i class="fas fa-envelope"></i> zhangsan@example.com</li>
+                    <li><i class="fas fa-map-marker-alt"></i> 北京市海淀区</li>
+                    <li><i class="fab fa-github"></i> github.com/zhangsan</li>
+                    <li><i class="fab fa-linkedin"></i> linkedin.com/in/zhangsan</li>
+                </ul>
+            </div>
+            
+            <div class="skills">
+                <h2 class="section-title">
+                    <i class="fas fa-tools"></i> 专业技能
+                </h2>
+                <div class="skill-item">
+                    <span class="skill-name">HTML5</span>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 95%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">CSS3</span>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">JavaScript</span>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">React</span>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 80%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">Vue</span>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 75%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">Node.js</span>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 70%"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="languages">
+                <h2 class="section-title">
+                    <i class="fas fa-language"></i> 语言能力
+                </h2>
+                <ul class="language-list">
+                    <li>中文 - 母语</li>
+                    <li>英语 - 大学英语六级</li>
+                </ul>
+            </div>
+            
+            <div class="interests">
+                <h2 class="section-title">
+                    <i class="fas fa-heart"></i> 兴趣爱好
+                </h2>
+                <div class="interest-icons">
+                    <i class="fas fa-code" title="编程"></i>
+                    <i class="fas fa-book" title="阅读"></i>
+                    <i class="fas fa-running" title="跑步"></i>
+                    <i class="fas fa-music" title="音乐"></i>
+                </div>
+            </div>
+        </aside>
+        
+        <!-- 右侧主要内容区域 -->
+        <main class="main-content">
+            <!-- 个人简介 -->
+            <section class="about">
+                <h2 class="section-title">
+                    <i class="fas fa-user"></i> 个人简介
+                </h2>
+                <p class="about-text">
+                    拥有3年前端开发经验，熟练掌握HTML5、CSS3、JavaScript等核心技术，
+                    熟悉React、Vue等主流前端框架。具备良好的代码规范和团队协作能力，
+                    热衷于学习新技术，能够独立完成项目开发，也能高效参与团队协作。
+                    致力于打造用户体验优秀、性能优良的Web应用。
+                </p>
+            </section>
+            
+            <!-- 工作经验 -->
+            <section class="experience">
+                <h2 class="section-title">
+                    <i class="fas fa-briefcase"></i> 工作经验
+                </h2>
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <h3 class="company-name">ABC科技有限公司</h3>
+                        <span class="period">2021.07 - 至今</span>
+                    </div>
+                    <p class="position">前端开发工程师</p>
+                    <ul class="responsibilities">
+                        <li>参与公司核心产品的前端开发，负责页面组件设计和实现</li>
+                        <li>使用React框架开发单页应用，优化用户体验和页面性能</li>
+                        <li>与后端团队协作，完成前后端数据交互和接口对接</li>
+                        <li>负责项目的代码维护和性能优化，提高页面加载速度30%</li>
+                        <li>参与技术方案讨论和评审，提出合理的技术建议</li>
+                    </ul>
+                </div>
+                
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <h3 class="company-name">XYZ互联网公司</h3>
+                        <span class="period">2019.07 - 2021.06</span>
+                    </div>
+                    <p class="position">前端开发实习生</p>
+                    <ul class="responsibilities">
+                        <li>协助开发公司官网和移动端H5页面</li>
+                        <li>使用HTML、CSS、JavaScript实现页面交互效果</li>
+                        <li>修复页面bug，优化页面样式和响应式设计</li>
+                        <li>参与团队代码评审，学习最佳实践</li>
+                    </ul>
+                </div>
+            </section>
+            
+            <!-- 教育背景 -->
+            <section class="education">
+                <h2 class="section-title">
+                    <i class="fas fa-graduation-cap"></i> 教育背景
+                </h2>
+                <div class="education-item">
+                    <div class="education-header">
+                        <h3 class="school-name">北京大学</h3>
+                        <span class="period">2015.09 - 2019.06</span>
+                    </div>
+                    <p class="degree">计算机科学与技术 - 学士学位</p>
+                    <p class="gpa">GPA: 3.8/4.0 (专业排名前10%)</p>
+                </div>
+            </section>
+            
+            <!-- 项目经历 -->
+            <section class="projects">
+                <h2 class="section-title">
+                    <i class="fas fa-project-diagram"></i> 项目经历
+                </h2>
+                <div class="project-item">
+                    <div class="project-header">
+                        <h3 class="project-name">电商平台前端重构</h3>
+                        <span class="project-period">2022.03 - 2022.08</span>
+                    </div>
+                    <p class="project-description">
+                        负责公司电商平台的前端重构工作，将传统的jQuery项目迁移到React框架
+                    </p>
+                    <ul class="project-achievements">
+                        <li>使用React + Redux搭建新的前端架构，提高代码可维护性</li>
+                        <li>实现响应式设计，适配PC端、平板和移动端</li>
+                        <li>优化页面加载性能，首屏加载时间从3秒降至1秒</li>
+                        <li>引入组件化开发思想，提高开发效率50%</li>
+                    </ul>
+                </div>
+                
+                <div class="project-item">
+                    <div class="project-header">
+                        <h3 class="project-name">企业管理系统</h3>
+                        <span class="project-period">2021.09 - 2022.02</span>
+                    </div>
+                    <p class="project-description">
+                        参与企业管理系统的前端开发，负责用户管理、权限控制等模块
+                    </p>
+                    <ul class="project-achievements">
+                        <li>使用Ant Design组件库快速搭建页面</li>
+                        <li>实现复杂的表单验证和数据处理逻辑</li>
+                        <li>与后端协作完成RESTful API对接</li>
+                        <li>编写单元测试，提高代码质量</li>
+                    </ul>
+                </div>
+            </section>
+            
+            <!-- 证书荣誉 -->
+            <section class="certifications">
+                <h2 class="section-title">
+                    <i class="fas fa-award"></i> 证书荣誉
+                </h2>
+                <ul class="certification-list">
+                    <li><span class="cert-name">CET-6证书</span> - 2018年6月</li>
+                    <li><span class="cert-name">计算机二级证书</span> - 2017年9月</li>
+                    <li><span class="cert-name">公司年度优秀员工</span> - 2022年</li>
+                    <li><span class="cert-name">React高级开发认证</span> - 2023年3月</li>
+                </ul>
+            </section>
+        </main>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
