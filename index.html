@@ -1,219 +1,237 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>个人简历</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
     <div class="container">
-        <!-- 左侧个人信息区域 -->
-        <aside class="sidebar">
-            <div class="profile">
-                <div class="profile-pic"></div>
-                <h1 class="name">张三</h1>
-                <p class="title">前端开发工程师</p>
+      <!-- 左侧个人信息区域 -->
+      <aside class="sidebar">
+        <div class="profile">
+          <div class="profile-pic"></div>
+          <h1 class="name">梁霞</h1>
+          <p class="title">前端开发工程师</p>
+        </div>
+
+        <div class="contact">
+          <h2 class="section-title">
+            <i class="fas fa-address-book"></i> 联系方式
+          </h2>
+          <ul class="contact-list">
+            <li><i class="fas fa-phone"></i> 190-8422-2014</li>
+            <li><i class="fas fa-envelope"></i> 2635683352@qq.com</li>
+            <li><i class="fas fa-map-marker-alt"></i> 广东省东莞市</li>
+            <li><i class="fab fa-github"></i> github.com/lgxia</li>
+            <li><i class="fab fa-github"></i> CSDN 三水木雨</li>
+          </ul>
+        </div>
+
+        <div class="skills">
+          <h2 class="section-title"><i class="fas fa-tools"></i> 专业技能</h2>
+          1、熟悉 Vue2/Vue3 及其生态。<br />
+          2、熟练掌握 TypeScript 与 JavaScript<br />
+          (ES6+)。<br />
+          3、熟悉现代前端工程化，掌握 Webpack。<br />
+          4、熟悉 uni-app 跨端开发框架，能使用HbuilderX、微信开发者工具。<br />
+          5、熟练掌握HTML5、CSS3及预处理器（Sass/Less）。<br />
+          6、熟悉 ElementUI 等 UI 框架。<br />
+          7、理解 HTTP 协议及 Restful
+          <br />
+          8、熟悉 Git。<br />
+          9、了解微前端架构设计。 <br />
+          10、熟悉Python 及 Django、Flask框架。 <br />
+          11、熟悉 MySQL、Elasticsearch 等数据库。
+        </div>
+
+        <div class="interests">
+          <h2 class="section-title"><i class="fas fa-heart"></i> 兴趣爱好</h2>
+          <div class="interest-icons">
+            <i class="fas fa-code" title="编程"></i>
+            <i class="fas fa-book" title="阅读"></i>
+            <i class="fas fa-running" title="跑步"></i>
+            <i class="fas fa-music" title="音乐"></i>
+          </div>
+        </div>
+      </aside>
+
+      <!-- 右侧主要内容区域 -->
+      <main class="main-content">
+        <!-- 工作经验 -->
+        <section class="experience">
+          <h2 class="section-title">
+            <i class="fas fa-briefcase"></i> 工作经验
+          </h2>
+          <div class="experience-item">
+            <div class="experience-header">
+              <h3 class="company-name">华为（外包）</h3>
+              <span class="period">2023 年 11 月~至今</span>
             </div>
-            
-            <div class="contact">
-                <h2 class="section-title">
-                    <i class="fas fa-address-book"></i> 联系方式
-                </h2>
-                <ul class="contact-list">
-                    <li><i class="fas fa-phone"></i> 138-0000-0000</li>
-                    <li><i class="fas fa-envelope"></i> zhangsan@example.com</li>
-                    <li><i class="fas fa-map-marker-alt"></i> 北京市海淀区</li>
-                    <li><i class="fab fa-github"></i> github.com/zhangsan</li>
-                    <li><i class="fab fa-linkedin"></i> linkedin.com/in/zhangsan</li>
-                </ul>
+            <p class="position">全栈开发工程师</p>
+            <ul class="responsibilities">
+              <li>
+                独立完成日报管理系统、车辆管理系统、测试报告模板生成工具全栈开发
+              </li>
+              <li>协作完成官网前端大屏开发、防护网平台前端重构</li>
+              <li>
+                协作完成车载开发部工作平台（30+系统的集合平台）、先知平台（日志管理）维护
+              </li>
+              <li>
+                参与完成大众仿真QT桌面应用开发；支撑样机管理系统等其他系统开发
+              </li>
+              <li>为组内提供前端业务咨询和和帮助</li>
+            </ul>
+          </div>
+
+          <div class="experience-item">
+            <div class="experience-header">
+              <h3 class="company-name">潍柴集团（子公司）</h3>
+              <span class="period">2022 . 09 ~2023 . 11</span>
             </div>
-            
-            <div class="skills">
-                <h2 class="section-title">
-                    <i class="fas fa-tools"></i> 专业技能
-                </h2>
-                <div class="skill-item">
-                    <span class="skill-name">HTML5</span>
-                    <div class="skill-bar">
-                        <div class="skill-level" style="width: 95%"></div>
-                    </div>
-                </div>
-                <div class="skill-item">
-                    <span class="skill-name">CSS3</span>
-                    <div class="skill-bar">
-                        <div class="skill-level" style="width: 90%"></div>
-                    </div>
-                </div>
-                <div class="skill-item">
-                    <span class="skill-name">JavaScript</span>
-                    <div class="skill-bar">
-                        <div class="skill-level" style="width: 85%"></div>
-                    </div>
-                </div>
-                <div class="skill-item">
-                    <span class="skill-name">React</span>
-                    <div class="skill-bar">
-                        <div class="skill-level" style="width: 80%"></div>
-                    </div>
-                </div>
-                <div class="skill-item">
-                    <span class="skill-name">Vue</span>
-                    <div class="skill-bar">
-                        <div class="skill-level" style="width: 75%"></div>
-                    </div>
-                </div>
-                <div class="skill-item">
-                    <span class="skill-name">Node.js</span>
-                    <div class="skill-bar">
-                        <div class="skill-level" style="width: 70%"></div>
-                    </div>
-                </div>
+            <p class="position">前端开发工程师</p>
+            <ul class="responsibilities">
+              <li>
+                主导完成产线中控管理系统、工序自检小程序前端开发;协作完成株齿云、携物出门app前端开发
+              </li>
+              <li>使用HTML、CSS、JavaScript实现页面交互效果</li>
+              <li>修复页面bug，优化页面样式和响应式设计</li>
+              <li>参与团队代码评审，学习最佳实践</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 项目经历 -->
+        <section class="projects">
+          <h2 class="section-title">
+            <i class="fas fa-project-diagram"></i> 项目经历
+          </h2>
+          <div class="project-item">
+            <div class="project-header">
+              <h3 class="project-name">车辆管理系统（PC）</h3>
+              <span class="project-period">2024.05-2024.11</span>
             </div>
-            
-            <div class="languages">
-                <h2 class="section-title">
-                    <i class="fas fa-language"></i> 语言能力
-                </h2>
-                <ul class="language-list">
-                    <li>中文 - 母语</li>
-                    <li>英语 - 大学英语六级</li>
-                </ul>
+            <p class="project-description">
+              该平台将传统的线下、离散的车辆管理模式，转变为线上化、规范化、自动化的全生命周期管理。不仅极大提升了内部运营效率，降低了管理成本，更通过系统的规范性与专业性，向客户直观呈现了卓越的管理水平，成为赢得并维系客户信任的关键技术支撑。
+            </p>
+            <ul class="project-achievements">
+              <li>
+                <h5>流程智能化引擎</h5>
+                机器人流程助手： 设计了自动提醒机制，主动推动申请/审批流程，缩短等待时间。<br />
+                文件流处理： 建立自动化文件处理管道，实现文档的上传、解析、归档与流转。<br />
+                任务生命周期管理： 实施“僵尸任务”定时扫描与处理机制，保障系统数据健康与流程洁净。<br />
+              </li>
+              <li>
+                <h5>全栈业务实现</h5>
+                复杂业务流程建模： 设计并实现了多条件、多角色的车辆审批工作流，确保业务流程的灵活与严
+                谨。<br />
+                模块化与组件化设计： 将通用功能（如权限管理、详情面板、文件管理）封装为高内聚、低耦合
+                的组件，提升代码复用性与系统可维护性。<br />
+                实时状态同步： 实现审批状态等关键信息的实时推送与更新，确保信息透明。<br />
+              </li>
+              <li>
+                <h5>核心功能模块</h5>
+                细粒度权限管理： 基于单元的权限控制系统，实现数据与功能的精准访问控制。<br />
+                一体化信息面板： 集成车辆与驾驶员的详细档案、历史记录、实时状态于一体的读写操作面板。<br />
+                数字化签名与文件管理： 集成安全可靠的电子签名，结合结构化的文件管理体系，确保操作合规、
+                记录可溯。<br />
+                车辆问题可视化： 将车辆故障、维修记录通过图片、看板的形式直观呈现，辅助快速决策。<br />
+              </li>
+            </ul>
+          </div>
+
+          <div class="project-item">
+            <div class="project-header">
+              <h3 class="project-name">测试报告模板生成工具（PC）</h3>
+              <span class="project-period"> 2025.11-2025.12</span>
             </div>
-            
-            <div class="interests">
-                <h2 class="section-title">
-                    <i class="fas fa-heart"></i> 兴趣爱好
-                </h2>
-                <div class="interest-icons">
-                    <i class="fas fa-code" title="编程"></i>
-                    <i class="fas fa-book" title="阅读"></i>
-                    <i class="fas fa-running" title="跑步"></i>
-                    <i class="fas fa-music" title="音乐"></i>
-                </div>
+            <p class="project-description">
+              针对测试报告内容繁杂、格式多样的问题，传统手工制作报告耗时耗力且格式不统一。通过开发一款定制化测试报告模板生成工具，实现了报告格式标准化和生成自动化，提升报告输出效率60%以上，确保团队输出格式规范统一。
+            </p>
+            <ul class="project-achievements">
+              <li>
+                搭建Flask服务承载pywin32com实现附件添加，模板文本替换，支持模板保存一键导出。
+              </li>
+            </ul>
+          </div>
+          <div class="project-item">
+            <div class="project-header">
+              <h3 class="project-name">防护网平台前端重构（PC）</h3>
+              <span class="project-period"> 2025.04-2025.08</span>
             </div>
-        </aside>
-        
-        <!-- 右侧主要内容区域 -->
-        <main class="main-content">
-            <!-- 个人简介 -->
-            <section class="about">
-                <h2 class="section-title">
-                    <i class="fas fa-user"></i> 个人简介
-                </h2>
-                <p class="about-text">
-                    拥有3年前端开发经验，熟练掌握HTML5、CSS3、JavaScript等核心技术，
-                    熟悉React、Vue等主流前端框架。具备良好的代码规范和团队协作能力，
-                    热衷于学习新技术，能够独立完成项目开发，也能高效参与团队协作。
-                    致力于打造用户体验优秀、性能优良的Web应用。
-                </p>
-            </section>
-            
-            <!-- 工作经验 -->
-            <section class="experience">
-                <h2 class="section-title">
-                    <i class="fas fa-briefcase"></i> 工作经验
-                </h2>
-                <div class="experience-item">
-                    <div class="experience-header">
-                        <h3 class="company-name">ABC科技有限公司</h3>
-                        <span class="period">2021.07 - 至今</span>
-                    </div>
-                    <p class="position">前端开发工程师</p>
-                    <ul class="responsibilities">
-                        <li>参与公司核心产品的前端开发，负责页面组件设计和实现</li>
-                        <li>使用React框架开发单页应用，优化用户体验和页面性能</li>
-                        <li>与后端团队协作，完成前后端数据交互和接口对接</li>
-                        <li>负责项目的代码维护和性能优化，提高页面加载速度30%</li>
-                        <li>参与技术方案讨论和评审，提出合理的技术建议</li>
-                    </ul>
-                </div>
-                
-                <div class="experience-item">
-                    <div class="experience-header">
-                        <h3 class="company-name">XYZ互联网公司</h3>
-                        <span class="period">2019.07 - 2021.06</span>
-                    </div>
-                    <p class="position">前端开发实习生</p>
-                    <ul class="responsibilities">
-                        <li>协助开发公司官网和移动端H5页面</li>
-                        <li>使用HTML、CSS、JavaScript实现页面交互效果</li>
-                        <li>修复页面bug，优化页面样式和响应式设计</li>
-                        <li>参与团队代码评审，学习最佳实践</li>
-                    </ul>
-                </div>
-            </section>
-            
-            <!-- 教育背景 -->
-            <section class="education">
-                <h2 class="section-title">
-                    <i class="fas fa-graduation-cap"></i> 教育背景
-                </h2>
-                <div class="education-item">
-                    <div class="education-header">
-                        <h3 class="school-name">北京大学</h3>
-                        <span class="period">2015.09 - 2019.06</span>
-                    </div>
-                    <p class="degree">计算机科学与技术 - 学士学位</p>
-                    <p class="gpa">GPA: 3.8/4.0 (专业排名前10%)</p>
-                </div>
-            </section>
-            
-            <!-- 项目经历 -->
-            <section class="projects">
-                <h2 class="section-title">
-                    <i class="fas fa-project-diagram"></i> 项目经历
-                </h2>
-                <div class="project-item">
-                    <div class="project-header">
-                        <h3 class="project-name">电商平台前端重构</h3>
-                        <span class="project-period">2022.03 - 2022.08</span>
-                    </div>
-                    <p class="project-description">
-                        负责公司电商平台的前端重构工作，将传统的jQuery项目迁移到React框架
-                    </p>
-                    <ul class="project-achievements">
-                        <li>使用React + Redux搭建新的前端架构，提高代码可维护性</li>
-                        <li>实现响应式设计，适配PC端、平板和移动端</li>
-                        <li>优化页面加载性能，首屏加载时间从3秒降至1秒</li>
-                        <li>引入组件化开发思想，提高开发效率50%</li>
-                    </ul>
-                </div>
-                
-                <div class="project-item">
-                    <div class="project-header">
-                        <h3 class="project-name">企业管理系统</h3>
-                        <span class="project-period">2021.09 - 2022.02</span>
-                    </div>
-                    <p class="project-description">
-                        参与企业管理系统的前端开发，负责用户管理、权限控制等模块
-                    </p>
-                    <ul class="project-achievements">
-                        <li>使用Ant Design组件库快速搭建页面</li>
-                        <li>实现复杂的表单验证和数据处理逻辑</li>
-                        <li>与后端协作完成RESTful API对接</li>
-                        <li>编写单元测试，提高代码质量</li>
-                    </ul>
-                </div>
-            </section>
-            
-            <!-- 证书荣誉 -->
-            <section class="certifications">
-                <h2 class="section-title">
-                    <i class="fas fa-award"></i> 证书荣誉
-                </h2>
-                <ul class="certification-list">
-                    <li><span class="cert-name">CET-6证书</span> - 2018年6月</li>
-                    <li><span class="cert-name">计算机二级证书</span> - 2017年9月</li>
-                    <li><span class="cert-name">公司年度优秀员工</span> - 2022年</li>
-                    <li><span class="cert-name">React高级开发认证</span> - 2023年3月</li>
-                </ul>
-            </section>
-        </main>
+            <p class="project-description">
+              为了解决老版系统存在UI设计用户体验差、代码冗余、结构混乱等问题。
+            </p>
+            <ul class="project-achievements">
+              <li>
+                在员工任务管理和分配模块采用 ECharts +
+                Gantt图插件，替代原有的表格展示方式。
+              </li>
+              <li>
+                紧紧围绕组件化模块化思想抽离代码，实现可复用性、可维护性。抽离30+通用基础组件，
+                包括表单控件、数据展示、导航等开发15+业务专用组件，如任务卡片、进度指示器、审批流
+                组件。抽离包括二次封装Axios请求和响应态、时间格式化等方法。TypeScript类型定义全覆盖，
+                减少运行时错误65%。
+              </li>
+              <li>
+                利用scss、js实现屏幕响应式和样式优化。移动优先设计原则，Flexbox
+                + CSS Grid混合布局，
+                实现复杂场景下的响应式适配，图片和媒体资源自适应，配合WebP格式和懒加载优化。
+              </li>
+              <li>交互体验优化，现骨架屏加载，消除白屏等待时间。</li>
+            </ul>
+          </div>
+          <div class="project-item">
+            <div class="project-header">
+              <h3 class="project-name">工序自检（小程序）</h3>
+              <span class="project-period"> 2023.05-2023.11</span>
+            </div>
+            <p class="project-description">
+              为了发现上中下产线存在的不符合生产标准的产品和零件，避免流通到下一道工序，影响生产节奏。产线中控管理平台+自互检小程序实现互检上报审批规范化。
+            </p>
+            <ul class="project-achievements">
+              <li>技术栈：uni-app、Vue2、Vue-Cli、uni-app组件库</li>
+              <li>工具：HBuilder、微信开发者工具</li>
+              <li>
+                核心贡献与成就：
+                与BI、UI、JAVA后端开发、系统测试紧密合作。还原设计稿95%以上，接口联调功能实现度100%，及时响应关闭问题单。
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 教育背景 -->
+        <section class="education">
+          <h2 class="section-title">
+            <i class="fas fa-graduation-cap"></i> 教育背景
+          </h2>
+          <div class="education-item">
+            <div class="education-header">
+              <h3 class="school-name">吉首大学（全日制本科）</h3>
+              <span class="period">2020.09 - 2022.06</span>
+            </div>
+            <p class="degree">数据科学与大数据技术 - 学士学位</p>
+          </div>
+          <div class="education-item">
+            <div class="education-header">
+              <h3 class="school-name">湖南软件技术大学（全日制大专）</h3>
+              <span class="period">2017.09 - 2020.06</span>
+            </div>
+            <p class="degree">大数据技术与应用</p>
+          </div>
+        </section>
+      </main>
     </div>
-    
+
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
